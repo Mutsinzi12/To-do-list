@@ -1,0 +1,59 @@
+input{
+    height: 30px;
+    width: 40vw;
+    margin-right: 5px;
+}
+h1{
+    text-align: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+body{
+    width: 90%;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content .int{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style-type: circle;
+    width: 100%
+}
+li {
+    margin-top: 20px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+li button {
+    height: 30px;
+    width: 90px; 
+}
+
+@media(max-width:425px){
+   ul{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: fit-content;
+    overflow-x: scroll;
+   }
+}
